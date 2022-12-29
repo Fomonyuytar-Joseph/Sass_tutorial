@@ -32,4 +32,14 @@
                 };
             border: $base-border-thickness solid $val;
     }
+
+        .btn-complement-#{$key} {
+            @include btn($val);
+            color: light-comp($val);
+    
+            &:hover {
+                color: $val;
+                background-color: light-comp($val);
+            }
+        }
 }

@@ -4,7 +4,7 @@
 
 
 
-
+@import 'functions';
 @import 'variables';
 
 //colors 
@@ -15,5 +15,7 @@
 
 @import "components/card";
 @import "components/button";
+
+@import "utilities";
 
 
